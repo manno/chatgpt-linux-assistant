@@ -64,5 +64,5 @@ while True:
 			print(chatGPT_reply)
 			break
 		else:
-			print("ERROR UNEXPECTED RESPONSE:: [%s]"%(response))
-			exit(1)
+			print("UNEXPECTED RESPONSE:: [%s]"%(response))
+			break
