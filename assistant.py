@@ -43,6 +43,9 @@ while True:
 			res = response.split("@Backend")[1]
 			if debug:
 				print(res)
+			#if "Backend:" in res and "Proxy Natural Language Processor:" in res:
+			#	print(chatbot.ask("DO NOT REPLY AS BACKEND PLEASE. ONLY REPLY as Proxy Natural Language Processor."))
+			#	break
 			json_str = json.loads(res)
 			command = json_str['command']
 
